@@ -6,6 +6,16 @@ const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 var BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 
+const file_loader = {
+  test: /\.(png|jpg|gif)$/,
+  use: [
+    {
+      loader: "file-loader",
+      options: {}
+    }
+  ]
+};
+
 const js = {
   test: /\.(js)$/,
   use: [
@@ -45,7 +55,7 @@ module.exports = {
   },
 
   module: {
-    loaders: [styles, js, template]
+    loaders: [styles, js, template, file_loader]
   },
 
   devtool: "eval-source-map",
