@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat')
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab')
 @require "reset.styl"
-@require "variables.styl"
+@require "variables&mixins.styl"
 @require "header.styl"
 @require "hero.styl"
+@require "perks.styl"
 
 // general styles
 
@@ -14,3 +15,14 @@ body
 .container
   max-width 960px
   margin 0 auto
+
+.section_m
+  sectionWmargin()
+
+.heading
+  heading()
+
+.clear::after
+  display table
+  content ''
+  clear both

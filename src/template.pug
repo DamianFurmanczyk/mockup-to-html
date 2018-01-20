@@ -7,9 +7,11 @@ html(lang='en')
     title Boilterplate
     link(rel="stylesheet", href="style.css")
   body
-    include ./views/header.pug
+    include ./partials/header.pug
     main
-      include ./views/hero.pug
+      include ./partials/hero.pug
+      include ./partials/perks.pug
+      include ./partials/perks2.pug
 
 
     script(src="main.js")
