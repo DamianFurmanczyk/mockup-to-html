@@ -192,7 +192,7 @@ body {
 .hero-content h1 {
   font-size: 4rem;
   color: #fff;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1.5rem;
   line-height: 5rem;
   letter-spacing: 0.2px;
 }
@@ -207,7 +207,8 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#7cc576), to(#a3d69f));
   background: -o-linear-gradient(top, #7cc576 0%, #a3d69f 100%);
   background: linear-gradient(top, #7cc576 0%, #a3d69f 100%);
-  padding: 20px 30px;
+  padding: 22px 35px;
+  font-size: 1rem !important;
   color: #ececec;
   border-width: 0;
   font-size: 0.9rem;
@@ -231,7 +232,6 @@ body {
   font-size: 1.2rem;
   font-weight: 550;
   color: #888;
-  margin-bottom: 1rem;
   margin-bottom: 3rem;
 }
 .perks-row {
@@ -260,10 +260,85 @@ body {
   font-size: 0.8rem;
   font-weight: 550;
   color: #888;
-  margin-bottom: 1rem;
   padding: 0 1rem;
   line-height: 1.3rem;
   display: block;
+}
+.perks2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.perks2 aside {
+  padding-left: 50px;
+  background: #ececec url(9b5cc840338975f48aa8e3002ac42fc4.png) no-repeat right center;
+  width: 30%;
+}
+.perks2-box {
+  padding: 60px 100px;
+  background: url(7d39ab5b127ccfb6b54650561b92b3e0.jpg) no-repeat center 30% fixed;
+  background-size: cover;
+  width: 70%;
+}
+.perks2-box .padding,
+.perks2-box h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+.perks2-box .padding span,
+.perks2-box h2 span {
+  color: #7cc576;
+}
+.perks2-box p {
+  font-family: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: 550;
+  color: #888;
+  font-family: 'Montserrat';
+  line-height: 1.4rem;
+  color: #ccc;
+  max-width: 500px;
+}
+.perks2-box button {
+  background: #7cc576;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7cc576), to(#a3d69f));
+  background: -o-linear-gradient(top, #7cc576 0%, #a3d69f 100%);
+  background: linear-gradient(top, #7cc576 0%, #a3d69f 100%);
+  padding: 22px 35px;
+  font-size: 1rem !important;
+  color: #ececec;
+  border-width: 0;
+  font-size: 0.9rem;
+  border-radius: 35px;
+  font-weight: bold;
+  font-family: Montserrat;
+  text-shadow: 0 1px 1px #222;
+  text-transform: uppercase;
+}
+.perks2-box button:hover {
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#67bc60), to(#96d191));
+  background: -o-linear-gradient(top, #67bc60 0%, #96d191 100%);
+  background: linear-gradient(top, #67bc60 0%, #96d191 100%);
+}
+.perks2-box ul {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.perks2-box ul li {
+  color: #ccc;
+  margin: 15px 0;
+  font-family: 'Roboto Slab';
+}
+.perks2-box ul li:before {
+  margin-right: 15px;
+  vertical-align: -40%;
+  content: url(44116b473380070f9339883019d4b62e.png);
 }
 body {
   font-family: Montserrat, Verdana, sans-serif;

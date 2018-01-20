@@ -1,3 +1,37 @@
-section.perks2.clear
-  > aside
+.perks2
+  display flex
+  aside
+    padding-left 50px
+    background whitish url("images/gear.png") no-repeat right center
     width 30%
+  &-box
+    padding 60px 100px
+    background url("images/beach.jpg") no-repeat center 30% fixed;
+    background-size cover
+    width 70%
+    .padding
+    h2
+      heading(3rem)
+      color white
+      text-align left
+      span
+        color green
+    p
+      small(1rem)
+      font-family 'Montserrat'
+      line-height 1.4rem
+      color lightergray
+      max-width 500px
+    button
+      button()
+    ul
+      margin-top 2rem
+      margin-bottom 3rem
+      li
+        color lightergray
+        margin 15px 0
+        font-family: 'Roboto Slab'
+        &:before
+          margin-right 15px
+          vertical-align: -40%
+          content url('images/check.png')

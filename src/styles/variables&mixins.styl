@@ -2,6 +2,7 @@ green = #7CC576
 lightgray = #888
 blackish = #222222
 whitish = #ECECEC
+lightergray = #cccccc
 
 heading()
   font-size arguments || 2.5rem
@@ -15,7 +16,6 @@ small()
   font-size arguments || 1.2rem
   font-weight: 550
   color lightgray
-  margin-bottom 1rem
 
 sectionWmargin()
   margin-top arguments || 7rem
@@ -24,7 +24,8 @@ sectionWmargin()
 button()
   background: green
   background: linear-gradient(top, green 0%, lighten(green, 30%) 100%)
-  padding 20px 30px
+  padding 22px 35px
+  font-size 1rem !important
   color whitish
   border-width 0
   font-size 0.9rem
@@ -33,3 +34,6 @@ button()
   font-family: Montserrat
   text-shadow: 0 1px 1px blackish
   text-transform: uppercase
+  &:hover
+    cursor pointer
+    background: linear-gradient(top, darken(green, 10%) 0%, lighten(green, 20%) 100%)
