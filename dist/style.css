@@ -153,12 +153,12 @@ body {
       justify-content: space-around;
 }
 .nav-list-link {
-  color: #888;
+  color: #777;
   padding: 0 1.5rem;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 12px;
-  font-weight: 550;
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 .nav-list-link:hover {
   color: #222;
@@ -230,8 +230,8 @@ body {
 .perks-small {
   font-family: "Roboto Slab";
   font-size: 1.2rem;
-  font-weight: 550;
-  color: #888;
+  font-weight: lighter;
+  color: #777;
   margin-bottom: 3rem;
 }
 .perks-row {
@@ -258,8 +258,8 @@ body {
 .perks-row small {
   font-family: "Roboto Slab";
   font-size: 0.8rem;
-  font-weight: 550;
-  color: #888;
+  font-weight: lighter;
+  color: #777;
   padding: 0 1rem;
   line-height: 1.3rem;
   display: block;
@@ -275,30 +275,28 @@ body {
   width: 30%;
 }
 .perks2-box {
-  padding: 60px 100px;
-  background: url(7d39ab5b127ccfb6b54650561b92b3e0.jpg) no-repeat center 30% fixed;
+  padding: 80px 100px;
+  background: url(7d39ab5b127ccfb6b54650561b92b3e0.jpg) no-repeat center top fixed;
   background-size: cover;
   width: 70%;
 }
-.perks2-box .padding,
 .perks2-box h2 {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 2.7rem;
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 1rem;
   text-transform: uppercase;
   color: #fff;
   text-align: left;
 }
-.perks2-box .padding span,
 .perks2-box h2 span {
   color: #7cc576;
 }
 .perks2-box p {
   font-family: "Roboto Slab";
   font-size: 1rem;
-  font-weight: 550;
-  color: #888;
+  font-weight: lighter;
+  color: #777;
   font-family: 'Montserrat';
   line-height: 1.4rem;
   color: #ccc;
@@ -340,6 +338,106 @@ body {
   vertical-align: -40%;
   content: url(44116b473380070f9339883019d4b62e.png);
 }
+.portfolio {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  background: url(c709410e525f5ca5a7b7802eda701f9f.png) no-repeat center right;
+}
+.portfolio-header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.portfolio-small {
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #777;
+  text-align: center;
+}
+.portfolio-content {
+  margin-top: 4rem;
+  max-width: 480px;
+}
+.portfolio-content-heading {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.portfolio-content-small {
+  font-family: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #777;
+  letter-spacing: 0.3px;
+}
+.portfolio-list {
+  margin: 2rem 0;
+}
+.portfolio-list-item {
+  position: relative;
+  padding-left: 90px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem 0;
+}
+.portfolio-list-item p {
+  font-family: "Roboto Slab";
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #777;
+  margin-top: 0.2rem;
+}
+.portfolio-list-item:nth-of-type(1)::before {
+  position: absolute;
+  content: url(bea488649392d6682cf9eaa7ca3f4adb.png);
+  -webkit-transform: translateX(-90px);
+      -ms-transform: translateX(-90px);
+          transform: translateX(-90px);
+}
+.portfolio-list-item:nth-of-type(2)::before {
+  position: absolute;
+  content: url(9156d0ccf4daaaf09c1e129c99e5a184.png);
+  -webkit-transform: translateX(-90px);
+      -ms-transform: translateX(-90px);
+          transform: translateX(-90px);
+}
+.portfolio-list-item:nth-of-type(3)::before {
+  position: absolute;
+  content: url(d487cfb279e6f96e67b1c62940c1799d.png);
+  -webkit-transform: translateX(-90px);
+      -ms-transform: translateX(-90px);
+          transform: translateX(-90px);
+}
+.portfolio-link-more {
+  margin-top: 2rem;
+  display: block;
+  color: #7cc576;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.portfolio-link-more::after {
+  margin-left: 1rem;
+  content: url(72c9e18b42691a5843f399077656d141.png);
+}
+.portfolio-link-more:hover {
+  color: #222;
+}
+.portfolio-link-more:hover::after {
+  content: url(582009aa881557e6e586f0dadee9ae06.png);
+}
 body {
   font-family: Montserrat, Verdana, sans-serif;
   color: #222;
@@ -354,7 +452,7 @@ body {
 }
 .heading {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 1rem;
   text-transform: uppercase;
