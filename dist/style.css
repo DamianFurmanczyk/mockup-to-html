@@ -217,6 +217,7 @@ body {
   font-family: Montserrat;
   text-shadow: 0 1px 1px #222;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 .hero-content button:hover {
   cursor: pointer;
@@ -441,7 +442,7 @@ body {
   font-weight: lighter;
   color: #777;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .values-row {
   display: -webkit-box;
@@ -499,6 +500,107 @@ body {
 }
 .values-row-column:first-of-type .hr::before {
   right: -20%;
+}
+.clients {
+  padding: 5rem 0;
+}
+.clients h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.clients .container > p {
+  font-family: "Roboto Slab";
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #777;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.clients .client {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.clients .client .bq-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px;
+  background: #ececec;
+  padding: 50px 20px;
+  border-radius: 5px;
+}
+.clients .client-quote {
+  font-family: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #777;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.clients .client blockquote {
+  padding: 0 20px;
+}
+.clients .client-signature {
+  font-family: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #777;
+  text-align: center;
+  color: #7cc576;
+  text-align: center;
+}
+.clients .client aside {
+  border-radius: 50%;
+  padding: 110px;
+  background: #ececec;
+  height: 0;
+}
+.clients .client.first .bq-box {
+  margin-left: 40px;
+  position: relative;
+}
+.clients .client.first .bq-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 10px transparent solid;
+  border-right: 10px #ececec solid;
+}
+.clients .client.second {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.clients .client.second .bq-box {
+  margin-right: 40px;
+  position: relative;
+}
+.clients .client.second .bq-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 10px transparent solid;
+  border-left: 10px #ececec solid;
 }
 body {
   font-family: Montserrat, Verdana, sans-serif;
