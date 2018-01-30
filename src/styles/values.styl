@@ -1,0 +1,44 @@
+.values
+  background: lighten(whitish, 70%)
+  padding 5rem 0
+  h2
+    heading()
+  .container >  p
+    sub()
+    margin-bottom 2rem
+  &-row
+    display flex
+    justify-content: space-between
+    &-column
+      .hr
+        position: relative
+      .img-div
+        margin 2rem auto
+        border-radius 50%
+        border 1px solid blackish
+        width 100px
+        height 100px
+        display flex
+        justify-content: center
+        align-items: center
+      h3
+        heading(1.2rem)
+      p
+        sub(.9rem)
+        padding 0 30px
+      &:last-of-type,
+      &:first-of-type
+        .hr::before
+          content: ''
+          position absolute
+          top 50%
+          height 2px
+          width 40%
+          background lightgray
+      &:last-of-type
+        .hr::before
+          left -20%
+      &:first-of-type
+        .hr::before
+          right -20%
+        
