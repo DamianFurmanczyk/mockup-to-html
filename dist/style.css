@@ -537,7 +537,7 @@ body {
           align-items: center;
   margin: 25px;
   background: #ececec;
-  padding: 50px 20px;
+  padding: 25px 20px 55px 20px;
   border-radius: 5px;
 }
 .clients .client-quote {
@@ -601,6 +601,91 @@ body {
           transform: translateY(-50%);
   border: 10px transparent solid;
   border-left: 10px #ececec solid;
+}
+.contact {
+  background: #7cc576;
+  padding: 3rem 0;
+}
+.contact h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  max-width: 720px;
+  padding: 0 30px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.contact button {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.33s ease-in;
+  -o-transition: 0.33s ease-in;
+  transition: 0.33s ease-in;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #fff;
+  color: #7cc576;
+}
+.logos {
+  padding: 1rem;
+}
+.logos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.logos ul li {
+  padding: 20px 0;
+}
+.footer {
+  background: #222;
+  color: #fff;
+}
+.footer-row {
+  margin: 0 auto !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-column {
+  padding: 0 15px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.footer-column ul {
+  margin-top: 1rem;
+  font-family: 'Roboto Slab';
+}
+.footer-column ul li {
+  padding: 5px 0;
+}
+.footer-column ul li img {
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+.footer-column_tweets {
+  -webkit-box-flex: 1.2;
+      -ms-flex-positive: 1.2;
+          flex-grow: 1.2;
 }
 body {
   font-family: Montserrat, Verdana, sans-serif;
